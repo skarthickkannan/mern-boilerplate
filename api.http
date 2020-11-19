@@ -1,0 +1,19 @@
+POST http://localhost:5000/api/users/register
+Content-Type: application/json
+
+{
+    "name" : "karthick",
+    "lastname": "kannan",
+    "email" : "kkedits77@gmail.com",
+    "password": "8939065699@@"
+}
+
+###
+
+POST http://localhost:5000/api/users/login
+Content-Type: application/json
+
+{
+    "email" : "kkedits77@gmail.com",
+    "password": "8939065699@@"
+}
